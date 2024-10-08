@@ -166,4 +166,36 @@ body {
     .container {
         flex-direction: row; /* Mantener fila en PCs */
     }
+
+@media (max-with: 768px)  {
+
+    .service{
+        grid-template-columns: 1fr;
+    }
+
+    new a {
+        margin: 0 10px;
+    }
+
+    body {
+
+        padding: 10px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    .service-item {
+
+        padding: 15px;
+    }
+}
+
+
+    
 }
